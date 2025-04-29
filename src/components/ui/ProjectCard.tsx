@@ -7,6 +7,7 @@ interface Project {
   description: string;
   technologies: string[];
   imageUrl: string;
+  pdfUrl?: string;
 }
 
 interface ProjectCardProps {
@@ -58,7 +59,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="p-6">
         <h3 className="font-bold text-xl mb-2 text-gray-800 dark:text-gray-200">{project.title}</h3>
         <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
-        
+        {project.pdfUrl && (
+          <a
+            href={project.pdfUrl}
+            download
+            className="inline-block text-sm text-blue-600 dark:text-blue-400 hover:underline mb-4"
+          >
+            Télécharger la fiche technique
+          </a>
+        )}
         <div className="flex flex-wrap gap-2 mt-auto">
           {project.technologies.map((tech, index) => (
             <span 

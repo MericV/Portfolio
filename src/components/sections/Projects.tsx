@@ -10,7 +10,8 @@ const Projects: React.FC = () => {
       title: 'Application de Gestion',
       description: 'Application web de gestion d\'une bibliothèque. Projet réalisé en formation ainsi qu\'en équipe.',
       technologies: ['MySQL', 'HTML', 'CSS', 'JavaScript','Agile'],
-      imageUrl: 'https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      imageUrl: 'https://images.pexels.com/photos/5926382/pexels-photo-5926382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      pdfUrl: '/Biblio-Nice.zip'
     },
     {
       id: 2,
