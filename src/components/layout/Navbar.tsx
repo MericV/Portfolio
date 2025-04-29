@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ }) => {
     { name: 'Expérience', href: '#experience' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Projets', href: '#projects' },
-    { name: 'Epreuve E4', href: '#Epreuve' },
+    { name: 'Epreuve E5', href: '#Epreuve' },
     { name: 'Contact', href: '#contact' }
   ];
 

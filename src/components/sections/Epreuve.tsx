@@ -7,14 +7,14 @@ const Epreuve: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12 relative after:content-[''] after:absolute after:w-20 after:h-1 after:bg-blue-500 after:-bottom-4 after:left-1/2 after:-translate-x-1/2">
-            Épreuve E4 - BTS SIO
+            Épreuve E5 - BTS SIO
           </h2>
           
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 transition-all hover:shadow-xl">
             <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Présentation de l'Épreuve E4</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">Présentation de l'Épreuve E5</h3>
               <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
-                L'épreuve E4 du BTS Services Informatiques aux Organisations (SIO) intitulée <strong>« Support et mise à disposition de services informatiques »</strong> 
+                L'épreuve E5 du BTS Services Informatiques aux Organisations (SIO) intitulée <strong>« Support et mise à disposition de services informatiques »</strong> 
                 évalue la capacité du candidat à intervenir dans le support et le déploiement de services informatiques.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
@@ -41,7 +41,7 @@ const Epreuve: React.FC = () => {
                   <li className="flex items-start space-x-3 text-gray-600 dark:text-gray-400">
                     <BookOpen size={18} className="text-blue-500 mt-1" />
                     <span>
-                      Durée de l'épreuve : environ 40 minutes (20 minutes de présentation + 20 minutes d'entretien).
+                      Durée de l'épreuve : environ 40 minutes (10 minutes de présentation + 30 minutes d'entretien).
                     </span>
                   </li>
                   <li className="flex items-start space-x-3 text-gray-600 dark:text-gray-400">
@@ -76,7 +76,7 @@ const Epreuve: React.FC = () => {
                     className="inline-flex items-center px-5 py-2.5 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-500 transition-all"
                   >
                     <Link className="w-5 h-5 mr-2" />
-                    Grille E4
+                    Grille E5
                   </a>
                 </div>
               </div>
