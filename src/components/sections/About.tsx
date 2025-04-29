@@ -70,12 +70,12 @@ const About: React.FC = () => {
                   <br/>
                   <li className="flex justify-center md:justify-start">
                     <a
-                      href="public/CV Vaillant 2025-1.pdf"
+                      href="/CV Vaillant 2025-1.pdf"
                       download
                       className="inline-flex items-center px-5 py-2.5 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-500 transition-all"
                     >
                       <svg 
-                        xmlns="public/CV Vaillant 2025-1.pdf" 
+                        xmlns="/CV Vaillant 2025-1.pdf" 
                         fill="none" 
                         viewBox="0 0 24 24" 
                         strokeWidth="1.5" 

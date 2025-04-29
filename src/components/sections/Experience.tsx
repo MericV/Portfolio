@@ -11,7 +11,7 @@ const Experience: React.FC = () => {
       institution: 'Enreach For Service Provider, Sophia Antipolis',
       description: 'Création d\'une application internet afin de présenter un mockup de couleur de la prochaine application client.',
       icon: <Briefcase size={20} />,
-      lien: 'public/Rapport de stage (PDF).pdf'  
+      lien: '/Rapport de stage (PDF).pdf'  
     },
     {
       id: 2,
