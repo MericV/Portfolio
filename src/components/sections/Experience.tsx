@@ -9,8 +9,9 @@ const Experience: React.FC = () => {
       period: 'Juin 2024',
       title: 'Stagiaire',
       institution: 'Enreach For Service Provider, Sophia Antipolis',
-      description: 'Création d\'une application internet afin de présenter un mockup de couleur de la prochaine application client',
-      icon: <Briefcase size={20} />
+      description: 'Création d\'une application internet afin de présenter un mockup de couleur de la prochaine application client.',
+      icon: <Briefcase size={20} />,
+      lien: 'public/Rapport de stage (PDF).pdf'  
     },
     {
       id: 2,
@@ -18,7 +19,8 @@ const Experience: React.FC = () => {
       title: 'Assistant Logistique (CDI Étudiant)',
       institution: 'Leroy Merlin, Nice',
       description: 'Préparation des commandes et opérations d\'entrepôt. Gestion des stocks et coordination avec l\'équipe de vente. Utilisation de systèmes de gestion d\'inventaire informatisés.',
-      icon: <Briefcase size={20} />
+      icon: <Briefcase size={20} />,
+      lien: ''  
     },
     {
       id: 3,
@@ -26,9 +28,11 @@ const Experience: React.FC = () => {
       title: 'Stagiaire',
       institution: 'Enreach For Service Provider, Sophia Antipolis',
       description: 'Versioning de l\'application internet, mise à jour des demandes et des évolutions du marché',
-      icon: <Briefcase size={20} />
+      icon: <Briefcase size={20} />,
+      lien: ''  
     }
   ];
+  
 
   return (
     <section id="experience" className="py-20 bg-white dark:bg-gray-900">

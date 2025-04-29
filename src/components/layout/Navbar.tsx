@@ -5,7 +5,7 @@ interface NavbarProps {
   theme: 'light' | 'dark';
 }
 
-const Navbar: React.FC<NavbarProps> = ({ theme }) => {
+const Navbar: React.FC<NavbarProps> = ({ }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -29,6 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme }) => {
     { name: 'Expérience', href: '#experience' },
     { name: 'Compétences', href: '#skills' },
     { name: 'Projets', href: '#projects' },
+    { name: 'Epreuve E4', href: '#Epreuve' },
     { name: 'Contact', href: '#contact' }
   ];
 

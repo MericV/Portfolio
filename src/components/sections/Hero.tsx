@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           <div className="md:w-1/2 lg:w-2/5 flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-500 rounded-full overflow-hidden shadow-2xl animate-fade-in">
               <img 
-                src="src/components/public/IMG_4028.jpeg" 
+                src="public/IMG_4028 2.jpeg" 
                 alt="Profile" 
                 className="w-full h-full object-cover opacity-85"
               />

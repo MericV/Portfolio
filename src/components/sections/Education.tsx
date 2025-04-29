@@ -33,7 +33,7 @@ const Education: React.FC = () => {
       period: '2025 - 2026',
       title: 'Licence 3 MIASHS parcours MIAGE ',
       institution: 'Université, Biot',
-      description: 'Accepté en L3, une formation en mathématiques, informatique et sciences humaines et sociales. Elle permet d’envisager un très large spectre de projets professionnels : finance, banque, assurance, santé, administration et collectivités, services',
+      description: 'Accepté en L3, une formation en mathématiques, informatique et sciences humaines et sociales. Elle permet d’envisager un très large spectre de projets professionnels : finance, banque, assurance, santé, administration, collectivités et services',
       icon: <BookOpen size={20} />
     }
   ];
