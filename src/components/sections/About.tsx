@@ -20,10 +20,10 @@ const About: React.FC = () => {
                 je m'engage pleinement dans tous mes projets.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Actuellement en deuxième année de BTS SIO (Services Informatiques aux Organisations), 
-                je me spécialise dans le développement d'applications. Mon parcours académique et mes 
-                expériences professionnelles m'ont permis de développer des compétences techniques et 
-                personnelles que je souhaite mettre au service d'une entreprise innovante.
+                Actuellement en licence MIASHS, parcours MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises), 
+                je me spécialise dans le développement d’applications et la gestion de projets informatiques.
+                Mon parcours académique, alliant informatique, mathématiques et sciences humaines, ainsi que mes expériences professionnelles, 
+                m'ont permis d’acquérir des compétences techniques et transversales que je souhaite mettre au service d'une entreprise dynamique et innovante.
               </p>
             </div>
             
@@ -40,7 +40,7 @@ const About: React.FC = () => {
                   <li className="flex items-start space-x-3 text-gray-600 dark:text-gray-400">
                     <MapPin size={18} className="text-blue-500 mt-1" />
                     <span>
-                      <strong className="font-medium text-gray-700 dark:text-gray-300">Adresse:</strong> 1761 Route des Condamines, 06670 Saint-Martin-du-Var, France
+                      <strong className="font-medium text-gray-700 dark:text-gray-300">Adresse:</strong> 06670 Saint-Martin-du-Var, France
                     </span>
                   </li>
                   <li className="flex items-center space-x-3 text-gray-600 dark:text-gray-400">
@@ -117,10 +117,6 @@ const About: React.FC = () => {
                   <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
                     <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
                     <span>Ski</span>
-                  </div>
-                  <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
-                    <span>Galeries d'art</span>
                   </div>
                   <div className="flex items-center space-x-2 text-gray-600 dark:text-gray-400">
                     <span className="w-2 h-2 bg-blue-500 rounded-full"></span>

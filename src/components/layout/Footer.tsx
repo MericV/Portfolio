@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-bold text-lg mb-4 text-blue-600 dark:text-blue-400">Meric Vaillant</h3>
             <p className="text-gray-600 dark:text-gray-400 mb-4">
-              Étudiant en BTS SIO passionné par l'informatique et les nouvelles technologies.
+              Étudiant en Licence 3 MIASHS option MIAGE passionné par l'informatique et les nouvelles technologies.
             </p>
             <div className="flex space-x-4">
               <a href="https://github.com/MericV" target="_blank" rel="noopener noreferrer" aria-label="Github" className="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start space-x-2 text-gray-600 dark:text-gray-400">
                 <MapPin size={18} className="mt-1 flex-shrink-0" />
-                <span>1761 Route des Condamines, 06670 Saint-Martin-du-Var, France</span>
+                <span>Saint-Martin-du-Var, France</span>
               </li>
             </ul>
           </div>

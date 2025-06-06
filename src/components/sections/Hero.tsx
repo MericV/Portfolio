@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
               Meric <span className="text-blue-600 dark:text-blue-400">Vaillant</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-8 animate-fade-in-up animation-delay-200">
-              Étudiant en BTS SIO — Développement d'Applications
+              Étudiant en Licence 3 — MIASHS parcours MIAGE
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg mx-auto md:mx-0 animate-fade-in-up animation-delay-400">
               Un étudiant motivé avec une solide formation en mathématiques et en informatique. 
@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
           <div className="md:w-1/2 lg:w-2/5 flex justify-center md:justify-end">
             <div className="relative w-64 h-64 md:w-80 md:h-80 bg-blue-600 dark:bg-blue-500 rounded-full overflow-hidden shadow-2xl animate-fade-in">
               <img 
-                src="/IMG_4028 2.jpeg" 
+                src="/IMG_0591.jpeg" 
                 alt="Profile" 
                 className="w-full h-full object-cover opacity-85"
               />
