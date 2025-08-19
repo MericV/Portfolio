@@ -40,7 +40,7 @@ const About: React.FC = () => {
                   <li className="flex items-start space-x-3 text-gray-600 dark:text-gray-400">
                     <MapPin size={18} className="text-blue-500 mt-1" />
                     <span>
-                      <strong className="font-medium text-gray-700 dark:text-gray-300">Adresse:</strong> 06670 Saint-Martin-du-Var, France
+                      <strong className="font-medium text-gray-700 dark:text-gray-300">Adresse:</strong> 06000 Nice 
                     </span>
                   </li>
                   <li className="flex items-center space-x-3 text-gray-600 dark:text-gray-400">
@@ -75,7 +75,7 @@ const About: React.FC = () => {
                       className="inline-flex items-center px-5 py-2.5 bg-blue-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-600 dark:bg-blue-600 dark:hover:bg-blue-500 transition-all"
                     >
                       <svg 
-                        xmlns="public/CV_Vaillant_Meric.pdf"
+                        xmlns="public/CV_Vaillant.pdf"
                         fill="none" 
                         viewBox="0 0 24 24" 
                         strokeWidth="1.5" 

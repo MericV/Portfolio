@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, User, MessageSquare } from 'lucide-react';
+import { Mail,Phone, User, MessageSquare } from 'lucide-react';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -77,6 +77,18 @@ const Contact: React.FC = () => {
                     <p className="opacity-70">Email</p>
                     <a href="mailto:vaillant.meric@icloud.com" className="font-medium hover:underline">
                       vaillant.meric@icloud.com
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-3">
+                  <div className="bg-blue-600 p-2 rounded-full">
+                    <Phone size={18} />
+                  </div>
+                  <div>
+                    <p className="opacity-70">Telephone</p>
+                    <a href="tel:+33787601907" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      +33 7 87 60 19 07
                     </a>
                   </div>
                 </div>

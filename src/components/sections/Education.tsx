@@ -24,7 +24,7 @@ const Education: React.FC = () => {
       id: 3,
       period: '2023 - 2025',
       title: 'BTS SIO (Services Informatiques aux Organisations)',
-      institution: 'Beau Site, Nice',
+      institution: 'Mention Bien (15,86/20)',
       description: 'Formation en informatique spécialisée dans le développement d\'applications. Apprentissage des langages de programmation, bases de données, et méthodologies de développement.',
       icon: <BookOpen size={20} />
     },    
