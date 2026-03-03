@@ -10,7 +10,7 @@ const Education: React.FC = () => {
       title: 'Licence 3 MIASHS parcours MIAGE ',
       institution: 'Université, Biot',
       description: 'Accepté en L3, une formation en mathématiques, informatique et sciences humaines et sociales. Elle permet d’envisager un très large spectre de projets professionnels : finance, banque, assurance, santé, administration, collectivités et services',
-      icon: <BookOpen size={20} />
+      icon: <Award size={20} />
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const Education: React.FC = () => {
       title: 'Baccalauréat Scientifique',
       institution: 'Lycée Les Eucalyptus, Nice',
       description: 'Spécialités : Mathématiques, Physique-Chimie, Sciences de l\'Ingénieur. Option supplémentaire : Mathématiques Avancées. Formation scientifique solide avec un accent sur les mathématiques et l\'ingénierie.',
-      icon: <Award size={20} />
+      icon: <BookOpen size={20} />
     }
   ];
 
@@ -44,17 +44,33 @@ const Education: React.FC = () => {
       period: '2025',
       title: 'Certification PIX',
       institution: 'France',
-      description: 'Certification des compétences numériques validant la maîtrise des outils informatiques et des compétences digitales essentielles. Score PIX : 517. Code de vérification : P-P9VD88JW.',
+      description: 'Certification officielle évaluant les compétences numériques : culture digitale, cybersécurité, protection des données, collaboration en ligne et résolution de problèmes. Score obtenu : 517 (Code de vérification : P-P9VD88JW).',
       icon: <Award size={20} />
     },
     {
       id: 2,
+      period: '2025',
+      title: 'Label Handimanagement',
+      institution: 'France',
+      description: 'Programme de sensibilisation au management inclusif et à l’intégration du handicap en entreprise : cadre légal, bonnes pratiques RH, communication inclusive et accompagnement des collaborateurs.',
+      icon: <Award size={20} />
+    },
+    {
+      id: 3,
+      period: '2025',
+      title: 'MOOC ANSSI – SecNumacadémie',
+      institution: 'France',
+      description: 'Formation en ligne sur les fondamentaux de la cybersécurité : menaces informatiques, bonnes pratiques, sécurité des systèmes d’information et protection des données.',
+      icon: <Award size={20} />
+    },
+    {
+      id: 4,
       period: '2023',
       title: 'Projet Voltaire',
       institution: 'France',
       description: 'Certification en orthographe et grammaire française, attestant d\'une maîtrise avancée de la langue française écrite.',
       icon: <Award size={20} />
-    }
+    },
   ];
 
   return (
