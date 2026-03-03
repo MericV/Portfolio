@@ -5,19 +5,11 @@ import { BookOpen, Award } from 'lucide-react';
 const Education: React.FC = () => {
   const educationData = [
     {
-      id: 4,
-      period: '2019 - 2022',
-      title: 'Baccalauréat Scientifique',
-      institution: 'Lycée Les Eucalyptus, Nice',
-      description: 'Spécialités : Mathématiques, Physique-Chimie, Sciences de l\'Ingénieur. Option supplémentaire : Mathématiques Avancées. Formation scientifique solide avec un accent sur les mathématiques et l\'ingénierie.',
-      icon: <Award size={20} />
-    },
-    {
-      id: 3,
-      period: '2022 - 2023',
-      title: '1ère Année de DCG (Diplôme de Comptabilité et de Gestion)',
-      institution: 'Nice',
-      description: 'Validation de l\'UE 8 – Systèmes d\'Information et de Gestion, qui m\'a permis d\'acquérir des connaissances en gestion des systèmes d\'information, mais aussi en comptabilité ainsi qu\'en droit',
+      id: 1,
+      period: '2025 - 2026',
+      title: 'Licence 3 MIASHS parcours MIAGE ',
+      institution: 'Université, Biot',
+      description: 'Accepté en L3, une formation en mathématiques, informatique et sciences humaines et sociales. Elle permet d’envisager un très large spectre de projets professionnels : finance, banque, assurance, santé, administration, collectivités et services',
       icon: <BookOpen size={20} />
     },
     {
@@ -27,32 +19,40 @@ const Education: React.FC = () => {
       institution: 'Mention Bien (15,86/20)',
       description: 'Formation en informatique spécialisée dans le développement d\'applications. Apprentissage des langages de programmation, bases de données, et méthodologies de développement.',
       icon: <BookOpen size={20} />
-    },    
+    }, 
     {
-      id: 1,
-      period: '2025 - 2026',
-      title: 'Licence 3 MIASHS parcours MIAGE ',
-      institution: 'Université, Biot',
-      description: 'Accepté en L3, une formation en mathématiques, informatique et sciences humaines et sociales. Elle permet d’envisager un très large spectre de projets professionnels : finance, banque, assurance, santé, administration, collectivités et services',
+      id: 3,
+      period: '2022 - 2023',
+      title: '1ère Année de DCG (Diplôme de Comptabilité et de Gestion)',
+      institution: 'Nice',
+      description: 'Validation de l\'UE 8 – Systèmes d\'Information et de Gestion, qui m\'a permis d\'acquérir des connaissances en gestion des systèmes d\'information, mais aussi en comptabilité ainsi qu\'en droit',
       icon: <BookOpen size={20} />
+    },
+    {
+      id: 4,
+      period: '2019 - 2022',
+      title: 'Baccalauréat Scientifique',
+      institution: 'Lycée Les Eucalyptus, Nice',
+      description: 'Spécialités : Mathématiques, Physique-Chimie, Sciences de l\'Ingénieur. Option supplémentaire : Mathématiques Avancées. Formation scientifique solide avec un accent sur les mathématiques et l\'ingénierie.',
+      icon: <Award size={20} />
     }
   ];
 
   const certificationData = [
-    {
-      id: 2,
-      period: '2023',
-      title: 'Projet Voltaire',
-      institution: 'France',
-      description: 'Certification en orthographe et grammaire française, attestant d\'une maîtrise avancée de la langue française écrite.',
-      icon: <Award size={20} />
-    },
     {
       id: 1,
       period: '2025',
       title: 'Certification PIX',
       institution: 'France',
       description: 'Certification des compétences numériques validant la maîtrise des outils informatiques et des compétences digitales essentielles. Score PIX : 517. Code de vérification : P-P9VD88JW.',
+      icon: <Award size={20} />
+    },
+    {
+      id: 2,
+      period: '2023',
+      title: 'Projet Voltaire',
+      institution: 'France',
+      description: 'Certification en orthographe et grammaire française, attestant d\'une maîtrise avancée de la langue française écrite.',
       icon: <Award size={20} />
     }
   ];
