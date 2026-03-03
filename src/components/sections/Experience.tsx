@@ -6,30 +6,40 @@ const Experience: React.FC = () => {
   const experienceData = [
     {
       id: 1,
-      period: 'Juin 2024',
-      title: 'Stagiaire',
-      institution: 'Enreach For Service Provider, Sophia Antipolis',
-      description: 'Création d\'une application internet afin de présenter un mockup de couleur de la prochaine application client.',
-      icon: <Briefcase size={20} />,
-      lien: '/Rapport de stage (PDF).pdf'  
-    },
-    {
-      id: 2,
-      period: '2024 - à ce jour',
-      title: 'Assistant Logistique (CDI Étudiant)',
-      institution: 'Leroy Merlin, Nice',
-      description: 'Préparation des commandes et opérations d\'entrepôt. Gestion des stocks et coordination avec l\'équipe de vente. Utilisation de systèmes de gestion d\'inventaire informatisés.',
+      period: 'Août 2025 - Août 2026',
+      title: 'Alternant – Support & Évolution Applicative',
+      institution: 'Docaposte CSP, Sophia Antipolis',
+      description: 'Pilotage du versioning applicatif, déploiement des évolutions fonctionnelles et techniques, analyse des besoins métier et amélioration continue de la plateforme web.',
       icon: <Briefcase size={20} />,
       lien: ''  
     },
     {
-      id: 3,
+      id: 2,
       period: 'Février 2025',
       title: 'Stagiaire',
       institution: 'Enreach For Service Provider, Sophia Antipolis',
       description: 'Versioning de l\'application internet, mise à jour des demandes et des évolutions du marché',
       icon: <Briefcase size={20} />,
       lien: ''  
+    },
+    {
+      id: 3,
+      period: '2024 - à ce jour',
+      title: 'Logisticien (CDI Étudiant)',
+      institution: 'Leroy Merlin, Nice',
+      description: 'Préparation des commandes et opérations d\'entrepôt. Gestion des stocks et coordination avec l\'équipe de vente. Utilisation de systèmes de gestion d\'inventaire informatisés.',
+      icon: <Briefcase size={20} />,
+      lien: ''  
+    },
+
+    {
+      id: 4,
+      period: 'Juin 2024',
+      title: 'Stagiaire',
+      institution: 'Enreach For Service Provider, Sophia Antipolis',
+      description: 'Création d\'une application internet afin de présenter un mockup de couleur de la prochaine application client.',
+      icon: <Briefcase size={20} />,
+      lien: '/Rapport de stage (PDF).pdf'  
     }
   ];
   
