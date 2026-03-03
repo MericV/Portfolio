@@ -5,7 +5,7 @@ import { BookOpen, Award } from 'lucide-react';
 const Education: React.FC = () => {
   const educationData = [
     {
-      id: 1,
+      id: 4,
       period: '2019 - 2022',
       title: 'Baccalauréat Scientifique',
       institution: 'Lycée Les Eucalyptus, Nice',
@@ -13,7 +13,7 @@ const Education: React.FC = () => {
       icon: <Award size={20} />
     },
     {
-      id: 2,
+      id: 3,
       period: '2022 - 2023',
       title: '1ère Année de DCG (Diplôme de Comptabilité et de Gestion)',
       institution: 'Nice',
@@ -21,7 +21,7 @@ const Education: React.FC = () => {
       icon: <BookOpen size={20} />
     },
     {
-      id: 3,
+      id: 2,
       period: '2023 - 2025',
       title: 'BTS SIO (Services Informatiques aux Organisations)',
       institution: 'Mention Bien (15,86/20)',
@@ -29,7 +29,7 @@ const Education: React.FC = () => {
       icon: <BookOpen size={20} />
     },    
     {
-      id: 4,
+      id: 1,
       period: '2025 - 2026',
       title: 'Licence 3 MIASHS parcours MIAGE ',
       institution: 'Université, Biot',
@@ -40,7 +40,7 @@ const Education: React.FC = () => {
 
   const certificationData = [
     {
-      id: 1,
+      id: 2,
       period: '2023',
       title: 'Projet Voltaire',
       institution: 'France',
@@ -48,7 +48,7 @@ const Education: React.FC = () => {
       icon: <Award size={20} />
     },
     {
-      id: 2,
+      id: 1,
       period: '2025',
       title: 'Certification PIX',
       institution: 'France',
